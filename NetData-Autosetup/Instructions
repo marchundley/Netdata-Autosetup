@@ -1,0 +1,6 @@
+Instructions
+
+
+1. Open Terminal, navigate to script folder
+2. Run ./Installandconfig.sh
+3. Run sudo ./config.sh
