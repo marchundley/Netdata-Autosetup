@@ -16,7 +16,7 @@ if [[ "$check" != 1 ]]; then
     fi
     softwareupdate -i "$clt"
     rm -f /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
-    /usr/bin/xcode-select --switch /Library/Developer/CommandLineTools
+    sudo /usr/bin/xcode-select --switch /Library/Developer/CommandLineTools
 fi
 
 
