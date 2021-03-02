@@ -7,7 +7,7 @@ echo "Creating stream.conf to send data to parent"
 cat << 'EOF' >/usr/local/netdata/etc/netdata/stream.conf
 [stream]
     enabled = yes
-    destination = KRMAC01:19999
+    destination = 10.10.1.35:19999
     api key = 4DC3A4ED-B8C4-4578-9A0A-9E2A2E631B5A
 EOF
 
